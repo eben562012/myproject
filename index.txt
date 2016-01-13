@@ -1,0 +1,5 @@
+First file in feature/one
+Some gibberish
+Some gibberish
+Some gibberish [revised]
+Just to be sure
