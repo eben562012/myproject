@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+  <title>introduction to css</title>  
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+
+
+</head>
+
+<body>
+
+  <div class="col-m-1 navBar">
+    <ul>
+      <li><a href="#">home</a></li>
+      <li><a href="#">social</a></li>
+      <li><a href="#">contact us</a></li>
+      <li><a href="#">archive</a></li>
+    </ul>
+    
+  </div>
+  
+
+  <div class="clear"></div>
+
+
+  <div class="mainContainer Container">
+    <div class="col-m-2 subContainer" style = "float:left" "height:auto" "width:350px" "border:red">
+       <a href="#" class = "read">continue reading</a> <p>if you would like to contribute, 
+       then you are at liberty to do so let me hear from you soon</p> 
+
+
+    </div>
+
+    <div class="col-m-3 subContainer2" style = "float:right" "width:300px" "height:auto" >
+
+      helllo world this is the newest of acurrentdhlugewyghfug
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.4/jquery-ui.min.css">
+  <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.4/jquery-ui.theme.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap-theme.css">
+
+
+
+
+  <script type="text/javascript" src= "js/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src = "cycle-master/jquery.cycle.all.js"></script>
+  <script type="text/javascript" src ="jquery-ui-1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src   = "boostarp-3.3.5-dist/js/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript">
+
+
+  $(document).ready(function(){
+    $("p").eq(0).hide();
+    $("a.read").click(function(event){
+      event.preventDefault();
+      $("p").slideDown(3000);
+      $(this).hide();
+    });
+  });
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+  
+</body>
+
+</html>
